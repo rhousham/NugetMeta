@@ -3,7 +3,7 @@ Scan a series of nuget package files and identify any vulnerabilities
 
 Files to create a console app which can get all the issues in your packages.
 Calling is like this
-NugetMeta.exe -f C:\inetpub\wwwroot\NugetMeta\NugetMeta\packages.txt
+NugetMeta.exe -f packages.txt
 
 The file passed in - packages.txt - each line has the path (including filename) to the packages.config file.
 
