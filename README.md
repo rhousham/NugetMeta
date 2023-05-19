@@ -7,9 +7,11 @@ NugetMeta.exe -f packages.txt
 
 The file passed in - packages.txt - each line has the path (including filename) to the packages.config file.
 
-Any issues are shown and the packages.config are highlighted.
+Any issues are shown and the packages.config(s) effected are highlighted - so you can go away and patch.
 
 # Thanks to
 Microsoft for the code - https://learn.microsoft.com/en-us/nuget/reference/nuget-client-sdk#get-package-metadata
+
 DanielSWolf for the progressbar - https://gist.github.com/DanielSWolf/0ab6a96899cc5377bf54
+
 The team that worked on the command line parser - https://github.com/commandlineparser/commandline
